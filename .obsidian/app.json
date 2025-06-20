@@ -1,3 +1,5 @@
 {
-  "attachmentFolderPath": "assets/photos"
+  "attachmentFolderPath": "assets/photos",
+  "foldIndent": true,
+  "foldHeading": true
 }

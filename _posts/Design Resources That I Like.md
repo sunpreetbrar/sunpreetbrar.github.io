@@ -1,6 +1,6 @@
 ---
 title: Design Resources That I Like
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2025-06-20 16:00:00
 categories: 
 tags:
 ---
