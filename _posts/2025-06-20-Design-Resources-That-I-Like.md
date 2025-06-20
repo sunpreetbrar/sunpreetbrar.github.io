@@ -1,10 +1,12 @@
+
 ---
-title: Design Resources That I Like
-date: 2025-06-20 16:00:00 + 05:30
-categories:
-  - Design
-tags:
+title: "Design Resources That I Like"
+date: 2025-06-20 16:00:00 +0530
+categories: [Design]
+tags: []
+
 ---
+
 Not a complete list, I will keep updating as I find new stuff I like. My DMs are open for suggestions!
 
 ----
