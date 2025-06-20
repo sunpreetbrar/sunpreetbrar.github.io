@@ -11,10 +11,14 @@
             "id": "6a9f0be82096e127",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Design Resources That I Like.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Design Resources That I Like"
             }
           }
         ]

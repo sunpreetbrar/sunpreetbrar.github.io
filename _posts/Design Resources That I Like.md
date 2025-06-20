@@ -1,8 +1,8 @@
 ---
-title: TITLE
+title: Design Resources That I Like
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
+categories: 
+tags:
 ---
 Not a complete list, I will keep updating as I find new stuff I like. My DMs are open for suggestions!
 
