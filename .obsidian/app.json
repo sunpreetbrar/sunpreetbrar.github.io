@@ -1,5 +1,8 @@
 {
   "attachmentFolderPath": "assets/photos",
   "foldIndent": true,
-  "foldHeading": true
+  "foldHeading": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts",
+  "propertiesInDocument": "source"
 }

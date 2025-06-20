@@ -1,6 +1,6 @@
 ---
 title: TITLE
-date: "{{date }} {{time}} +/-0000"
+date: "{{date }} 23:54 +/-0000"
 categories:
   - TOP_CATEGORY
   - SUB_CATEGORY
