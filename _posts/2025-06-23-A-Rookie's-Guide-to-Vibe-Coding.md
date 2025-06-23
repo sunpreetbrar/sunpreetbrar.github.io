@@ -1,7 +1,7 @@
 ---
-title: 2025-06-23-A-Rookie's-Guide-to-Vibe-Coding
+title: A Rookie's Guide to Vibe Coding
 date: 2025-06-02 19:59:15
-categories: [Notes]
+categories: [Opinion]
 tags: []     # TAG names should always be lowercase
 ---
 ### Vibe Coding Slot Machine
