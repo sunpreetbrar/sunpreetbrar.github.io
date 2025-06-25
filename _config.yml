@@ -16,7 +16,7 @@ timezone: Asia/Delhi
 
 title: Sunpreet Brar # the main title
 
-favicon: "assets/img/favicon/favicon.ico" # the favicon of the site, it will be used in the browser tab and bookmark
+favicon: "/assets/img/favicon/favicon.ico" # the favicon of the site, it will be used in the browser tab and bookmark
 
 tagline: Musings on Tech and Culture # it will display as the subtitle
 
