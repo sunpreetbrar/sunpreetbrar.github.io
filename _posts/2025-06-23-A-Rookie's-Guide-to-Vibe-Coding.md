@@ -1,6 +1,6 @@
 ---
 title: A Rookie's Guide to Vibe Coding
-date: 2025-06-02 19:59:15
+date: 2025-06-23 19:59:15
 categories: [Notes]
 tags: []     # TAG names should always be lowercase
 ---

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_posts/2025-06-23-A-Rookie's-Guide-to-Vibe-Coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "2025-06-23-A-Rookie's-Guide-to-Vibe-Coding"
             }
           }
         ],
@@ -184,12 +184,14 @@
   },
   "active": "907874e52f14d656",
   "lastOpenFiles": [
+    "assets/templates/post_template.md",
+    "_posts/Untitled.md",
+    "_posts/2025-06-23-A-Rookie's-Guide-to-Vibe-Coding.md",
+    "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/categories.md",
     "_tabs/tags.md",
-    "_tabs/about.md",
     "_posts/2025-06-20-Design-Resources-That-I-Like.md",
-    "_posts/2025-06-23-A-Rookie's-Guide-to-Vibe-Coding.md",
     "assets/img/favicon/web-app-manifest-512x512.png",
     "assets/img/favicon/web-app-manifest-192x192.png",
     "assets/img/favicon/favicon-96x96.png",
@@ -202,7 +204,6 @@
     "_includes",
     "_include",
     "New folder",
-    "assets/templates/post_template.md",
     "assets/templates",
     "assets/photos/main.jpg",
     "assets/photos",
