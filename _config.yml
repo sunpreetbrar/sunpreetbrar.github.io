@@ -58,6 +58,16 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+
+# Custom navigation (Tags page hidden) overrides the default navigation.
+nav:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /categories/
+  - title: About
+    url: /about/
+
 # Web Analytics Settings
 analytics:
   google:
