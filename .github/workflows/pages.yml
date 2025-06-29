@@ -1,8 +1,9 @@
-name: Build and Deploy Chirpy
+name: Build and Deploy Chirpy to GitHub Pages
 
 on:
   push:
-    branches: [main]  # change if your default branch is different
+    branches:
+      - main  # Replace with your default branch if different
 
 permissions:
   contents: read
@@ -16,11 +17,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
 
-      - name: Setup Ruby
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
@@ -29,11 +31,11 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Build site
+      - name: Build the site with Jekyll
         run: bundle exec jekyll build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload build output
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./_site
 
@@ -42,9 +44,9 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy
         uses: actions/deploy-pages@v2
