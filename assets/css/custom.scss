@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Spectral';
+  src: url('Spectral-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('SF-Pro-Display-Semibold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --main-bg: #fff7ed;
+  --main-text: #5d4c37;
+  --link-color: #4c0519;
+  --link-hover-color: #4c0519;
+  --header-bg: #fff7ed;
+  --footer-bg: #fff7ed;
+  --sidebar-bg: #fff7ed;
+}
+
+// Example: Overriding body and heading fonts
+body {
+  font-family: 'spectral', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+// Force light mode only
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+    --main-bg: #fff7ed;
+    --main-text: #5d4c37;
+    --link-color: #4c0519;
+    --link-hover-color: #4c0519;
+    --header-bg: #fff7ed;
+    --footer-bg: #fff7ed;
+    --sidebar-bg: #fff7ed;
+  }
+}
