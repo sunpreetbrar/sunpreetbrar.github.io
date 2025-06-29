@@ -1,9 +1,9 @@
-name: Deploy Jekyll site to GitHub Pages
+name: Build and Deploy Jekyll site to GitHub Pages (no v3 artifact)
 
 on:
   push:
     branches:
-      - main  # Replace with your default branch if it's not 'main'
+      - main  # change to your default branch if different
 
 permissions:
   contents: read
@@ -17,7 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,18 +24,19 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: 3.2
           bundler-cache: true
 
       - name: Install dependencies
         run: bundle install
 
-      - name: Build site
+      - name: Build the site
         run: bundle exec jekyll build
 
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload build output manually
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: _site
 
   deploy:
@@ -47,6 +47,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
