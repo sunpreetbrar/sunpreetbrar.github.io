@@ -26,6 +26,10 @@
   font-style: normal;
 }
 
+html {
+  color-scheme: light !important;
+}
+
 
 :root {
   --main-bg: #fff7ed;
@@ -48,15 +52,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Force light mode by overriding dark mode settings */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
     --main-bg: #fff7ed;
     --main-text: #5d4c37;
     --link-color: #4c0519;
-  }
+    --link-hover-color: #4c0519;
+    --header-bg: #fff7ed;
+    --footer-bg: #fff7ed;
+    --sidebar-bg: #fff7ed;
 }
 
-html {
-  color-scheme: light !important;
-}
