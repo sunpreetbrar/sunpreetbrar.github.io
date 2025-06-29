@@ -47,6 +47,9 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/sunpreet-brar-a7806a251/
 
+plugins:
+  - jekyll-include-cache
+
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
